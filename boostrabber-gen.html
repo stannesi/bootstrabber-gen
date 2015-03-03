@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>.: Bootstrabber Generator :.</title>
+    
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/bootstrabber.css" rel="stylesheet">
+    
+	<script type="text/javascript" src="plugins/jquery/jquery-1.9.1.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/bootstrabber.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+<header>
+	<div class="container">
+		<h1>Bootstrabber Generator</h1>
+        <p class="lead">Bootstrap tab generator for content team.</p>
+    </div>
+<header>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        
+        <div class="span4">
+        <!--Sidebar content-->
+        	<h2>Settings</h2>
+            <div>
+            <form>
+            	<fieldset>                	
+                	<legend>Global Tab</legend>
+					<label>Tab ID <span  id= "tabIdSpan" class="label">Insert ID</span></label>
+                    <div class="input-append">
+    					<input type="text" id = "tabId" class="span6" placeholder="id">
+                        <button class="btn btn-info" id="createTab" type="button">Create Tab</button>
+					</div>
+                </fieldset>
+            </form>
+           	
+            <div id="GenCodes">
+              	<textarea  rows="10" placeholder="generated codes..."></textarea> 
+            </div>
+            
+            <form class="actionForm">
+            	<fieldset>
+                	<h3>Tab Properties</h3>
+					<label>Content</label>
+    				<textarea rows="5"></textarea>
+                    
+					<label>Title <span class="label">Insert Tab Title</span></label>
+                    <div class="input-append">
+                        <input type="text" class="span7" id=""  placeholder="title">
+                        <button class="btn btn-info add" type="button">Add Tab</button>
+                    </div>
+                     <br />               
+  					<button class="btn btn-danger generate" type="button">Generate Codes</button>
+                </fieldset>
+            </form>
+
+            </div> 
+        </div>
+        
+        
+        <div class="span8">
+          <!--Body content-->
+        	<div id="tabHolder">         	
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

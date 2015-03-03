@@ -1,0 +1,25 @@
+/* CSS Document */
+#main {
+	margin: 100px;
+}
+
+.img-mapper {
+	position:relative;
+	float:left;
+/*	width: 239px;
+	height:174px;*/
+}
+
+div.mapper {
+	/*z-index: 100;*/
+	position:absolute;
+	background:green;
+	/*
+	width:30px;
+	height:30px;
+	top: 0px;
+	left: 50px;
+	border-radius: 100%;
+	*/
+	cursor:pointer;	
+}

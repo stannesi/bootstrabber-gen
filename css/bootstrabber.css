@@ -1,0 +1,56 @@
+/* CSS Document */
+.actionForm {
+	background:#CCCCCC;
+	width:225px;	
+	padding:10px;
+
+}
+/*********** MY CHANGE [STANLEY] ************/
+ul.IDPTabs
+{
+    margin: 0px;
+}
+
+ul.IDPTabs li.active a
+{
+    color: #65a6f1;
+}
+
+ul.IDPTabs li a
+{
+    font-size:1.05em;
+    background-color: #5ba9eb;
+    color: #fff;
+    padding: 25px 150px 20px 25px;
+}
+
+ul.IDPTabs li.link a
+{
+    color: #65a6f1;
+    background-color: transparent;
+    border: transparent;
+    padding: 25px 20px 0px 30px;
+}
+
+div.tab-content .tab-pane
+{
+    margin: 0px;
+    border-bottom: 5px solid #5ba9eb;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 25px;
+}
+
+.WBRegcontents {
+    overflow:hidden
+}
+
+.WBRegcontents div {
+    margin-right:40px;
+    float:left;
+
+}
+.WBRegcontents ul li {
+    list-style-type: disc;
+    margin-left:20px;
+}
